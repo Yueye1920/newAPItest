@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 25 14:18:41 CST 2024","Wed Sep 25 14:18:41 CST 2024","165","","test_excel","TestCase","","","ID(4)-(输入错误的账号)",""
+"passed","Wed Sep 25 14:18:41 CST 2024","Wed Sep 25 14:18:42 CST 2024","151","","test_excel","TestCase","","","ID(6)-(输入错误的密码)",""
+"passed","Wed Sep 25 14:18:41 CST 2024","Wed Sep 25 14:18:41 CST 2024","146","","test_excel","TestCase","","","ID(5)-(输入错误的预期结果)",""
+"passed","Wed Sep 25 14:18:42 CST 2024","Wed Sep 25 14:18:42 CST 2024","135","","test_excel","TestCase","","","ID(8)-(请求url错误)",""
+"passed","Wed Sep 25 14:18:42 CST 2024","Wed Sep 25 14:18:42 CST 2024","45","","test_excel","TestCase","","","ID(7)-(请求方法错误)",""
+"passed","Wed Sep 25 14:18:41 CST 2024","Wed Sep 25 14:18:41 CST 2024","179","","test_excel","TestCase","","","ID(3)-(输入正确的账号及密码)",""

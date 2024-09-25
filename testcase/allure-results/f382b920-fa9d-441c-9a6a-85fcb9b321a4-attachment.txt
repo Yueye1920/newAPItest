@@ -1,0 +1,2 @@
+[32mINFO    [0m Login_log:test_excel.py:132 请求参数：http://shop-xo.hctestedu.com/index.php?s=/api/user/login，{'Content-Type': 'application/json'}，{"accounts": "hami","pwd": "123456","type": "username"}
+[32mINFO    [0m Login_log:test_excel.py:137 返回结果：无响应数据

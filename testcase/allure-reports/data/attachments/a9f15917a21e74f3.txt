@@ -1,0 +1,2 @@
+[32mINFO    [0m Login_log:test_excel.py:132 请求参数：http://shop-xo.hctestedu.com/index.php?s=/api/user/login，{'Content-Type': 'application/json'}，{"accounts": "hami","pwd": "12345678","type": "username"}
+[32mINFO    [0m Login_log:test_excel.py:134 返回结果：{"msg":"密码错误","code":-4,"data":""}

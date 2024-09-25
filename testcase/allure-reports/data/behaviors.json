@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "ID(3)-(输入正确的账号及密码)",
+    "uid" : "10c0ce35aff6d78c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1727245121381,
+      "stop" : 1727245121560,
+      "duration" : 179
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'id': 3, 'caseName': '输入正确的账号及密码', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录成功', 'result': '执行通过', 'response': '{\"msg\":\"登录成功\",\"code\":0,\"data\":{\"body_html\":\"\"}}'}" ]
+  }, {
+    "name" : "ID(4)-(输入错误的账号)",
+    "uid" : "ced8c08e355a5cce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1727245121568,
+      "stop" : 1727245121733,
+      "duration" : 165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'id': 4, 'caseName': '输入错误的账号', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"ass\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录帐号不存在', 'result': '执行通过', 'response': '{\"msg\":\"登录帐号不存在\",\"code\":-3,\"data\":\"\"}'}" ]
+  }, {
+    "name" : "ID(5)-(输入错误的预期结果)",
+    "uid" : "f14b4406e9435448",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1727245121737,
+      "stop" : 1727245121883,
+      "duration" : 146
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'id': 5, 'caseName': '输入错误的预期结果', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '密码错误', 'result': '执行失败', 'response': '{\"msg\":\"登录成功\",\"code\":0,\"data\":{\"body_html\":\"\"}}'}" ]
+  }, {
+    "name" : "ID(6)-(输入错误的密码)",
+    "uid" : "ee6c7b9f8d9bce41",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1727245121886,
+      "stop" : 1727245122037,
+      "duration" : 151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'id': 6, 'caseName': '输入错误的密码', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"12345678\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '密码错误', 'result': '执行通过', 'response': '{\"msg\":\"密码错误\",\"code\":-4,\"data\":\"\"}'}" ]
+  }, {
+    "name" : "ID(7)-(请求方法错误)",
+    "uid" : "55c8519467d7c53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1727245122040,
+      "stop" : 1727245122085,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'id': 7, 'caseName': '请求方法错误', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'get', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录成功', 'result': '数据提取失败，请检查参数', 'response': '日志为空，数据提取失败，请检查参数'}" ]
+  }, {
+    "name" : "ID(8)-(请求url错误)",
+    "uid" : "452ec0007b4b2a8e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1727245122088,
+      "stop" : 1727245122223,
+      "duration" : 135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'id': 8, 'caseName': '请求url错误', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录成功', 'result': '数据提取失败，请检查参数', 'response': '<!DOCTYPE html>\\n<html>\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <title>系统发生错误</title>\\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\\n    <style>\\n        /* Base */\\n        body {\\n            color: #333;\\n            font: 16px Verdana, \"Helvetica Neue\", helvetica, Arial, \\'Microsoft YaHei\\', sans-serif;\\n            margin: 0;\\n            padding: 0 20px 20px;\\n            \\n        }\\n        h1{\\n            margin: 10px 0 0;\\n            font-size: 28px;\\n            font-weight: 500;\\n            line-height: 40px;\\n        }\\n        h2{\\n            color: #4288ce;\\n            font-weight: 400;\\n            padding: 6px 0;\\n            margin: 6px 0 0;\\n            font-size: 18px;\\n            border-bottom: 1px solid #eee;\\n        }\\n        h3{\\n            margin: 12px;\\n            font-size: 16px;\\n            font-weight: bold;\\n        }\\n        abbr{\\n            cursor: help;\\n            text-decoration: underline;\\n            text-decoration-style: dotted;\\n        }\\n        a{\\n            color: #888;\\n            cursor: pointer;\\n            text-decoration: none;\\n        }\\n        a:hover{\\n            text-decoration: underline;\\n        }\\n        .line-error{\\n            background: #f8cbcb;\\n        }\\n\\n        .echo table {\\n            width: 100%;\\n        }\\n\\n        .echo pre {\\n            padding: 16px;\\n            overflow: auto;\\n            font-size: 85%;\\n            line-height: 1.45;\\n            background-color: #f7f7f7;\\n            border: 0;\\n            border-radius: 3px;\\n            font-family: Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\\n        }\\n\\n        .echo pre > pre {\\n            padding: 0;\\n            margin: 0;\\n        }\\n    \\n        /* Exception Info */\\n        .exception {\\n            margin-top: 20px;\\n        }\\n        .exception .message{\\n            padding: 12px;\\n            border: 1px solid #ddd;\\n            border-bottom: 0 none;\\n            line-height: 18px;\\n            font-size:16px;\\n            border-top-left-radius: 4px;\\n            border-top-right-radius: 4px;\\n            font-family: Consolas,\"Liberation Mono\",Courier,Verdana,\"微软雅黑\";\\n        }\\n\\n        .exception .code{\\n            float: left;\\n            text-align: center;\\n            color: #fff;\\n            margin-right: 12px;\\n            padding: 16px;\\n            border-radius: 4px;\\n            background: #999;\\n        }\\n        .exception .source-code{\\n            padding: 6px;\\n            border: 1px solid #ddd;\\n\\n            background: #f9f9f9;\\n            overflow-x: auto;\\n\\n        }\\n        .exception .source-code pre{\\n            margin: 0;\\n        }\\n        .exception .source-code pre ol{\\n            margin: 0;\\n            color: #4288ce;\\n            display: inline-block;\\n            min-width: 100%;\\n            box-sizing: border-box;\\n        font-size:14px;\\n            font-family: \"Century Gothic\",Consolas,\"Liberation Mono\",Courier,Verdana;\\n            padding-left: 40px;\\n        }\\n        .exception .source-code pre li{\\n            border-left: 1px solid #ddd;\\n            height: 18px;\\n            line-height: 18px;\\n        }\\n        .exception .source-code pre code{\\n            color: #333;\\n            height: 100%;\\n            display: inline-block;\\n            border-left: 1px solid #fff;\\n        font-size:14px;\\n            font-family: Consolas,\"Liberation Mono\",Courier,Verdana,\"微软雅黑\";\\n        }\\n        .exception .trace{\\n            padding: 6px;\\n            border: 1px solid #ddd;\\n            border-top: 0 none;\\n            line-height: 16px;\\n        font-size:14px;\\n            font-family: Consolas,\"Liberation Mono\",Courier,Verdana,\"微软雅黑\";\\n        }\\n        .exception .trace ol{\\n            margin: 12px;\\n        }\\n        .exception .trace ol li{\\n            padding: 2px 4px;\\n        }\\n        .exception div:last-child{\\n            border-bottom-left-radius: 4px;\\n            border-bottom-right-radius: 4px;\\n        }\\n\\n        /* Exception Variables */\\n        .exception-var table{\\n            width: 100%;\\n            margin: 12px 0;\\n            box-sizing: border-box;\\n            table-layout:fixed;\\n            word-wrap:break-word;            \\n        }\\n        .exception-var table caption{\\n            text-align: left;\\n            font-size: 16px;\\n            font-weight: bold;\\n            padding: 6px 0;\\n        }\\n        .exception-var table caption small{\\n            font-weight: 300;\\n            display: inline-block;\\n            margin-left: 10px;\\n            color: #ccc;\\n        }\\n        .exception-var table tbody{\\n            font-size: 13px;\\n            font-family: Consolas,\"Liberation Mono\",Courier,\"微软雅黑\";\\n        }\\n        .exception-var table td{\\n            padding: 0 6px;\\n            vertical-align: top;\\n            word-break: break-all;\\n        }\\n        .exception-var table td:first-child{\\n            width: 28%;\\n            font-weight: bold;\\n            white-space: nowrap;\\n        }\\n        .exception-var table td pre{\\n            margin: 0;\\n        }\\n        .exception .error-message h1 {\\n            text-align: center;\\n            margin-top: 10%;\\n        }\\n\\n        /* Copyright Info */\\n        .copyright{\\n            margin-top: 30px;\\n            padding: 12px 0;\\n            text-align: center;\\n        }\\n        .copyright a{\\n            color: #F44336;\\n            cursor: pointer;\\n            text-decoration: none;\\n            padding: 10px 15px;\\n            border: 1px solid #F44336;\\n        }\\n        .copyright a:hover{\\n            background: #F44336;\\n            color: #fff;\\n        }\\n\\n        /* SPAN elements with the classes below are added by prettyprint. */\\n        pre.prettyprint .pln { color: #000 }  /* plain text */\\n        pre.prettyprint .str { color: #080 }  /* string content */\\n        pre.prettyprint .kwd { color: #008 }  /* a keyword */\\n        pre.prettyprint .com { color: #800 }  /* a comment */\\n        pre.prettyprint .typ { color: #606 }  /* a type name */\\n        pre.prettyprint .lit { color: #066 }  /* a literal value */\\n        /* punctuation, lisp open bracket, lisp close bracket */\\n        pre.prettyprint .pun, pre.prettyprint .opn, pre.prettyprint .clo { color: #660 }\\n        pre.prettyprint .tag { color: #008 }  /* a markup tag name */\\n        pre.prettyprint .atn { color: #606 }  /* a markup attribute name */\\n        pre.prettyprint .atv { color: #080 }  /* a markup attribute value */\\n        pre.prettyprint .dec, pre.prettyprint .var { color: #606 }  /* a declaration; a variable name */\\n        pre.prettyprint .fun { color: red }  /* a function name */\\n    </style>\\n</head>\\n<body>\\n    <div class=\"echo\">\\n            </div>\\n        <div class=\"exception\">\\n        <div class=\"info error-message\"><h1>系统出现错误、请联系管理员或到ShopXO社区查阅~</h1></div>\\n    </div>\\n        \\n    \\n    \\n            <div class=\"copyright\">\\n            <a title=\"ShopXO企业级免费开源商城系统\" href=\"https://ask.shopxo.net/question/7\" target=\"_blank\">查看解决方案</a>\\n        </div>\\n    \\n    </body>\\n</html>\\n'}" ]
+  } ]
+}

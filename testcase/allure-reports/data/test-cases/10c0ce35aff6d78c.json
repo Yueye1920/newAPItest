@@ -1,0 +1,95 @@
+{
+  "uid" : "10c0ce35aff6d78c",
+  "name" : "ID(3)-(输入正确的账号及密码)",
+  "fullName" : "test_excel.TestCase#testData",
+  "historyId" : "2558a0efc7ed8f66f56e355085274c85",
+  "time" : {
+    "start" : 1727245121381,
+    "stop" : 1727245121560,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24483a81c06e0852",
+      "name" : "log",
+      "source" : "24483a81c06e0852.txt",
+      "type" : "text/plain",
+      "size" : 331
+    }, {
+      "uid" : "3ccf140e8f06a2d8",
+      "name" : "stdout",
+      "source" : "3ccf140e8f06a2d8.txt",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EA3KTC1"
+  }, {
+    "name" : "thread",
+    "value" : "1388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "CaseData",
+    "value" : "{'id': 3, 'caseName': '输入正确的账号及密码', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录成功', 'result': '执行通过', 'response': '{\"msg\":\"登录成功\",\"code\":0,\"data\":{\"body_html\":\"\"}}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a63d79f3c2e9a36a",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'casename'",
+      "time" : {
+        "start" : 1727245006677,
+        "stop" : 1727245006677,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c80d67ff9d5c0e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727244613740,
+        "stop" : 1727244613912,
+        "duration" : 172
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10c0ce35aff6d78c.json",
+  "parameterValues" : [ "{'id': 3, 'caseName': '输入正确的账号及密码', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录成功', 'result': '执行通过', 'response': '{\"msg\":\"登录成功\",\"code\":0,\"data\":{\"body_html\":\"\"}}'}" ]
+}

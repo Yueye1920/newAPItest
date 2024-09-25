@@ -1,0 +1,56 @@
+{
+  "uid" : "3e8df3303020bdfe",
+  "name" : "testData[CaseData3]",
+  "fullName" : "test_excel.TestCase#testData",
+  "historyId" : "6767ffef9d59c5333d0a8e04aa9d9a16",
+  "time" : {
+    "start" : 1727245006764,
+    "stop" : 1727245006764,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'casename'",
+  "statusTrace" : "self = <testcase.test_excel.TestCase object at 0x0000018894D458D0>\nCaseData = {'actualResult': '$..msg', 'caseName': '输入错误的密码', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"12345678\",\"type\": \"username\"}', 'expectResult': '密码错误', ...}\n\n    @pytest.mark.parametrize(\"CaseData\",AllCaseData)\n    def testData(self,CaseData):\n    \n        # 调用动态生成标题\n        # self.__dynmic_title(CaseData)\n>       casename=\"ID({})-({})\".format(CaseData[\"id\"],CaseData[\"casename\"])\nE       KeyError: 'casename'\n\ntest_excel.py:42: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EA3KTC1"
+  }, {
+    "name" : "thread",
+    "value" : "18592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "CaseData",
+    "value" : "{'id': 6, 'caseName': '输入错误的密码', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"12345678\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '密码错误', 'result': '执行通过', 'response': '{\"msg\":\"密码错误\",\"code\":-4,\"data\":\"\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3e8df3303020bdfe.json",
+  "parameterValues" : [ "{'id': 6, 'caseName': '输入错误的密码', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"12345678\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '密码错误', 'result': '执行通过', 'response': '{\"msg\":\"密码错误\",\"code\":-4,\"data\":\"\"}'}" ]
+}

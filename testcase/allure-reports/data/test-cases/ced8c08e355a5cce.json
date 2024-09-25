@@ -1,0 +1,95 @@
+{
+  "uid" : "ced8c08e355a5cce",
+  "name" : "ID(4)-(输入错误的账号)",
+  "fullName" : "test_excel.TestCase#testData",
+  "historyId" : "9c6ba0b04dab05ade8a988969f6c823c",
+  "time" : {
+    "start" : 1727245121568,
+    "stop" : 1727245121733,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9fc0eb90456c59cc",
+      "name" : "log",
+      "source" : "9fc0eb90456c59cc.txt",
+      "type" : "text/plain",
+      "size" : 326
+    }, {
+      "uid" : "ab0ae590c7be226",
+      "name" : "stdout",
+      "source" : "ab0ae590c7be226.txt",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EA3KTC1"
+  }, {
+    "name" : "thread",
+    "value" : "1388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "CaseData",
+    "value" : "{'id': 4, 'caseName': '输入错误的账号', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"ass\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录帐号不存在', 'result': '执行通过', 'response': '{\"msg\":\"登录帐号不存在\",\"code\":-3,\"data\":\"\"}'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "77cd21134de1b92d",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'casename'",
+      "time" : {
+        "start" : 1727245006755,
+        "stop" : 1727245006755,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3066c6dbc462bfe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1727244613915,
+        "stop" : 1727244614081,
+        "duration" : 166
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ced8c08e355a5cce.json",
+  "parameterValues" : [ "{'id': 4, 'caseName': '输入错误的账号', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'post', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"ass\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录帐号不存在', 'result': '执行通过', 'response': '{\"msg\":\"登录帐号不存在\",\"code\":-3,\"data\":\"\"}'}" ]
+}

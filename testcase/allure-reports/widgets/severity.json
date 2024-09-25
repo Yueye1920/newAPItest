@@ -1,0 +1,61 @@
+[ {
+  "uid" : "55c8519467d7c53",
+  "name" : "ID(7)-(请求方法错误)",
+  "time" : {
+    "start" : 1727245122040,
+    "stop" : 1727245122085,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "452ec0007b4b2a8e",
+  "name" : "ID(8)-(请求url错误)",
+  "time" : {
+    "start" : 1727245122088,
+    "stop" : 1727245122223,
+    "duration" : 135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee6c7b9f8d9bce41",
+  "name" : "ID(6)-(输入错误的密码)",
+  "time" : {
+    "start" : 1727245121886,
+    "stop" : 1727245122037,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f14b4406e9435448",
+  "name" : "ID(5)-(输入错误的预期结果)",
+  "time" : {
+    "start" : 1727245121737,
+    "stop" : 1727245121883,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10c0ce35aff6d78c",
+  "name" : "ID(3)-(输入正确的账号及密码)",
+  "time" : {
+    "start" : 1727245121381,
+    "stop" : 1727245121560,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ced8c08e355a5cce",
+  "name" : "ID(4)-(输入错误的账号)",
+  "time" : {
+    "start" : 1727245121568,
+    "stop" : 1727245121733,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

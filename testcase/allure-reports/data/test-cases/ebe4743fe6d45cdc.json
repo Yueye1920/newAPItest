@@ -1,0 +1,76 @@
+{
+  "uid" : "ebe4743fe6d45cdc",
+  "name" : "请求方法错误",
+  "fullName" : "test_excel.TestCase#testData",
+  "historyId" : "78e81b98d714df2ff221541a11b8a611",
+  "time" : {
+    "start" : 1727244614412,
+    "stop" : 1727244614458,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da9c0f1e1c0a0d11",
+      "name" : "log",
+      "source" : "da9c0f1e1c0a0d11.txt",
+      "type" : "text/plain",
+      "size" : 291
+    }, {
+      "uid" : "da4521c2c12a918f",
+      "name" : "stdout",
+      "source" : "da4521c2c12a918f.txt",
+      "type" : "text/plain",
+      "size" : 38
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EA3KTC1"
+  }, {
+    "name" : "thread",
+    "value" : "18204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "CaseData",
+    "value" : "{'id': 7, 'caseName': '请求方法错误', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'get', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录成功', 'result': '数据提取失败，请检查参数', 'response': '日志为空，数据提取失败，请检查参数'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebe4743fe6d45cdc.json",
+  "parameterValues" : [ "{'id': 7, 'caseName': '请求方法错误', 'url': 'http://shop-xo.hctestedu.com/index.php?s=/api/user/login', 'method': 'get', 'headers': '{\"Content-Type\":\"application/json\"}', 'datas': '{\"accounts\": \"hami\",\"pwd\": \"123456\",\"type\": \"username\"}', 'actualResult': '$..msg', 'expectResult': '登录成功', 'result': '数据提取失败，请检查参数', 'response': '日志为空，数据提取失败，请检查参数'}" ]
+}
