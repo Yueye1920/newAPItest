@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e248dce-2e66-4834-a34f-4adad4eb104e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/study/pytest01.py" afterDir="false" />
+    <list default="true" id="6e248dce-2e66-4834-a34f-4adad4eb104e" name="更改" comment="新建分支提交">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/newApitest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/test_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/test_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/test_@pytest_mark_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/test_setup_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/test_setup_class_and_mothod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study_pytest/test_setup_module.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_pytest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/pytest01.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +55,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python 测试.Python 测试 (test_excel.py 内).executor": "Run",
+    "Python 测试.pytest (test01.py 内).executor": "Run",
+    "Python 测试.pytest (test_01.py 内).executor": "Run",
+    "Python 测试.pytest (test_02.py 内).executor": "Run",
+    "Python 测试.pytest (test_05.py 内).executor": "Run",
+    "Python 测试.pytest01.test_traversal 的 pytest.executor": "Run",
+    "Python 测试.test01.test_sum 的 pytest.executor": "Run",
+    "Python 测试.test_01.test_traversal 的 pytest.executor": "Run",
+    "Python 测试.test_02.test_example2 的 pytest.executor": "Run",
+    "Python 测试.test_03.TestCase 的 pytest.executor": "Run",
+    "Python 测试.test_04.TestClass 的 pytest.executor": "Run",
     "Python 测试.test_excel.TestCase 的 Python 测试.executor": "Run",
     "Python 测试.test_excel.TestCase.testData 的 Python 测试.executor": "Run",
     "Python.fileData.executor": "Run",
     "Python.loggerController.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
     "Python.main_run (1).executor": "Run",
     "Python.main_run.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/dome/newapitest",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/dome/newapitest/study_pytest",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dome\newapitest\study_pytest" />
       <recent name="D:\dome\newapitest\newApitest\common" />
       <recent name="D:\dome\newapitest\newApitest\testcase" />
       <recent name="D:\dome\newapitest\newApitest\data\excel" />
@@ -73,7 +101,30 @@
       <recent name="D:\dome\newapitest\newApitest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.test_excel.TestCase 的 Python 测试">
+  <component name="RunManager" selected="Python 测试.pytest (test_02.py 内)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="newApitest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_pytest/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="newApitest" />
       <option name="ENV_FILES" value="" />
@@ -97,130 +148,85 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="newApitest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/main_run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="newApitest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\dome\newapitest\newApitest\testcase\main_run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="newApitest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\dome\newapitest\newApitest\testcase\main_run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python 测试 (test_excel.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest (test_01.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="newApitest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_pytest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_excel.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/study_pytest/test_01.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_excel.TestCase 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest (test_02.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="newApitest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_pytest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_excel.TestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/study_pytest/test_02.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_excel.TestCase.testData 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest (test_@pytest_mark_name.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="newApitest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_pytest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_excel.TestCase.testData&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/study_pytest/test_@pytest_mark_name.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_01.test_traversal 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="newApitest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_01.test_traversal&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.test_excel.TestCase 的 Python 测试" />
-        <item itemvalue="Python 测试.test_excel.TestCase.testData 的 Python 测试" />
-        <item itemvalue="Python.main_run (1)" />
-        <item itemvalue="Python.main_run (1)" />
-        <item itemvalue="Python.main_run" />
+        <item itemvalue="Python 测试.pytest (test_02.py 内)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python 测试.pytest (test_@pytest_mark_name.py 内)" />
+        <item itemvalue="Python 测试.pytest (test_01.py 内)" />
+        <item itemvalue="Python 测试.test_01.test_traversal 的 pytest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,8 +247,18 @@
       <updated>1727237102850</updated>
       <workItem from="1727237107118" duration="7124000" />
       <workItem from="1727244346247" duration="3290000" />
-      <workItem from="1727248531393" duration="228000" />
+      <workItem from="1727248531393" duration="2402000" />
+      <workItem from="1727334627934" duration="6586000" />
     </task>
+    <task id="LOCAL-00001" summary="新建分支提交">
+      <option name="closed" value="true" />
+      <created>1727248785133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727248785133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +269,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/release-20240925" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -261,14 +289,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="新建分支提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建分支提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/study_pytest/test_02.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/newapitest$.coverage" NAME=" 覆盖结果" MODIFIED="1727245107179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/newApitest$loggerController.coverage" NAME="loggerController 覆盖结果" MODIFIED="1727239212704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/newapitest$test_04_TestClass__pytest.coverage" NAME="test_04.TestClass 的 pytest 覆盖结果" MODIFIED="1727337664926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
+    <SUITE FILE_PATH="coverage/newapitest$test_01_test_traversal__pytest.coverage" NAME="test_01.test_traversal 的 pytest 覆盖结果" MODIFIED="1727338068338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
     <SUITE FILE_PATH="coverage/newApitest$.coverage" NAME=" 覆盖结果" MODIFIED="1727242455937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/newApitest$main_run__1_.coverage" NAME="main_run (1) 覆盖结果" MODIFIED="1727244105621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/newApitest$fileData.coverage" NAME="fileData 覆盖结果" MODIFIED="1727240167646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/newapitest$pytest01_test_traversal__pytest.coverage" NAME="pytest01.test_traversal 的 pytest 覆盖结果" MODIFIED="1727270244191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/newapitest$main_run__1_.coverage" NAME="main_run (1) 覆盖结果" MODIFIED="1727244585929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/newApitest$main_run.coverage" NAME="main_run 覆盖结果" MODIFIED="1727242799246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/newapitest$pytest__test_05_py__.coverage" NAME="pytest (test_05.py 内) 覆盖结果" MODIFIED="1727338181262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
+    <SUITE FILE_PATH="coverage/newapitest$test_03_TestCase__pytest.coverage" NAME="test_03.TestCase 的 pytest 覆盖结果" MODIFIED="1727337486243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
+    <SUITE FILE_PATH="coverage/newApitest$loggerController.coverage" NAME="loggerController 覆盖结果" MODIFIED="1727239212704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/newapitest$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1727338487401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
+    <SUITE FILE_PATH="coverage/newApitest$main_run__1_.coverage" NAME="main_run (1) 覆盖结果" MODIFIED="1727244105621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/newapitest$main__2_.coverage" NAME="main (2) 覆盖结果" MODIFIED="1727336372927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
+    <SUITE FILE_PATH="coverage/newApitest$fileData.coverage" NAME="fileData 覆盖结果" MODIFIED="1727240167646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/newapitest$test_02_test_example2__pytest.coverage" NAME="test_02.test_example2 的 pytest 覆盖结果" MODIFIED="1727336423289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
+    <SUITE FILE_PATH="coverage/newapitest$pytest__test_01_py__.coverage" NAME="pytest (test_01.py 内) 覆盖结果" MODIFIED="1727338072180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
+    <SUITE FILE_PATH="coverage/newapitest$pytest__test_02_py__.coverage" NAME="pytest (test_02.py 内) 覆盖结果" MODIFIED="1727340350294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_pytest" />
   </component>
 </project>
