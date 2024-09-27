@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e248dce-2e66-4834-a34f-4adad4eb104e" name="更改" comment="新建分支提交">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/newApitest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/test_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/test_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/test_@pytest_mark_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/test_setup_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/test_setup_class_and_mothod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_pytest/test_setup_module.py" afterDir="false" />
+    <list default="true" id="6e248dce-2e66-4834-a34f-4adad4eb104e" name="更改" comment="pytest学习">
+      <change afterPath="$PROJECT_DIR$/study_pytest/test_@pytest_mark_parametrize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_pytest/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/pytest01.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +48,7 @@
     "Python 测试.pytest (test_01.py 内).executor": "Run",
     "Python 测试.pytest (test_02.py 内).executor": "Run",
     "Python 测试.pytest (test_05.py 内).executor": "Run",
+    "Python 测试.pytest (test_@pytest_mark_parametrize.py 内).executor": "Run",
     "Python 测试.pytest01.test_traversal 的 pytest.executor": "Run",
     "Python 测试.test01.test_sum 的 pytest.executor": "Run",
     "Python 测试.test_01.test_traversal 的 pytest.executor": "Run",
@@ -101,7 +89,7 @@
       <recent name="D:\dome\newapitest\newApitest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.pytest (test_02.py 内)">
+  <component name="RunManager" selected="Python 测试.pytest (test_@pytest_mark_parametrize.py 内)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="newApitest" />
       <option name="ENV_FILES" value="" />
@@ -148,24 +136,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest (test_01.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="newApitest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_pytest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/study_pytest/test_01.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest (test_02.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="newApitest" />
       <option name="ENV_FILES" value="" />
@@ -202,7 +172,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_01.test_traversal 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest (test_@pytest_mark_parametrize.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="newApitest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,17 +186,35 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_01.test_traversal&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/study_pytest/test_@pytest_mark_parametrize.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_@pytest_mark_parametrize.test_add 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="newApitest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_@pytest_mark_parametrize.test_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python 测试.pytest (test_@pytest_mark_parametrize.py 内)" />
+        <item itemvalue="Python 测试.test_@pytest_mark_parametrize.test_add 的 pytest" />
         <item itemvalue="Python 测试.pytest (test_02.py 内)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python 测试.pytest (test_@pytest_mark_name.py 内)" />
-        <item itemvalue="Python 测试.pytest (test_01.py 内)" />
-        <item itemvalue="Python 测试.test_01.test_traversal 的 pytest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +236,8 @@
       <workItem from="1727237107118" duration="7124000" />
       <workItem from="1727244346247" duration="3290000" />
       <workItem from="1727248531393" duration="2402000" />
-      <workItem from="1727334627934" duration="6586000" />
+      <workItem from="1727334627934" duration="6649000" />
+      <workItem from="1727422702244" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="新建分支提交">
       <option name="closed" value="true" />
@@ -258,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727248785133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pytest学习">
+      <option name="closed" value="true" />
+      <created>1727352099581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727352099581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,18 +287,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="新建分支提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建分支提交" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/study_pytest/test_02.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="pytest学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest学习" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/newapitest$.coverage" NAME=" 覆盖结果" MODIFIED="1727245107179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
